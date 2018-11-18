@@ -1,0 +1,178 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+
+.top{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+   /* border: 2px solid rebeccapurple;*/
+    height: 8%;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+}
+.name{
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Lobster';
+    
+}
+.title{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.info{
+    margin-top: 2px;
+    font-size: 1.5rem;
+}
+.direction{
+    
+}
+a.navi{
+    text-decoration: none;
+    font-weight: 800;
+    color: #000;
+    font-size: 23px;
+    font-family: 'Cabin';
+    padding: 93px 32px 40px;
+    color: #ffffff;
+}
+a.navi:hover{
+    color: #911818;
+}
+header{
+    background-image: url("henri-l-547224-unsplash.jpg");
+    background-size: cover;
+    min-height: 650px;
+    background-attachment: fixed;
+    padding: 1% 5% 5% 5%;
+    
+}
+#buttom-top{
+    margin: 0px auto; 
+    color: #ffffff;
+    width: 80%;
+    margin-top: 8%;
+    
+}
+.dev-title{
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.about{
+    font-size: 20px;
+    line-height: 26px;
+}
+#main{
+    padding: 0.5rem;   
+    width: 80%;
+    min-height: 500px;
+    
+    margin: 0px auto;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 26px;
+    border-radius: 3px;
+    margin-right: 10px;
+    display: inline-block;
+    background: #260245;
+}
+#images{
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 20%;
+    
+}
+#images img{
+    width: 20%;
+    
+}
+.projects{
+    color: #293347;
+    font-weight: 800;
+    font-family: "eurostile",sans-serif;
+}
+.grid{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+   /* grid-template-rows: 300px 300px;*/
+   /*grid-auto-rows: 500px;*/
+   justify-content: center;
+   
+   grid-gap: 4%;
+   /* border: 3px solid royalblue;*/
+    justify-items: stretch;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 5%;
+}
+
+.grid>div>img{
+    max-width: 100%;
+    overflow: hidden;
+   /* opacity: 0.4;*/
+}
+.grid>div{
+    /*border: 3px solid red;*/
+    border-radius: 10px;
+     box-sizing: border-box;
+  
+     overflow: hidden;
+     position: relative;
+}
+.grid>div>img:hover {
+    
+    cursor: pointer;
+transform: scale(1.1);
+transition: transform 2s;
+   opacity: 0.4;
+   background-color: #260245;
+}
+
+
+.middle{ 
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+    visibility: hidden;
+}  
+#images{
+    opacity: 0.5;
+}
+.text{
+    color: #fff;
+margin-bottom: 1.8rem;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 1.125;
+}
+.button{
+   border: 2px solid rgb(73, 8, 73);
+   margin: 0px auto;
+   background: rgb(73, 8, 73);
+   border-radius: 20px;
+   color: #ffff;
+   padding: 0.8rem;
+   text-decoration: none;
+   
+}
+.row1col1{
+    grid-row: 1;
+    grid-column: 1;
+    /*justify-self: stretch;*/
+}
+.row1col2{
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: stretch;
+}
