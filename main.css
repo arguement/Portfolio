@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quintessential');
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
 html,body{
     height: 100%;
     margin: 0px;
@@ -7,7 +11,6 @@ html,body{
     width: 80%;
     margin: 0px auto;
     display: flex;
-   /* border: 2px solid rebeccapurple;*/
     height: 8%;
     justify-content: space-between;
     padding: 0.5rem;
@@ -52,17 +55,28 @@ header{
     margin: 0px auto;
     color: #ffffff;
     width: 80%;
-    margin-top: 8%;
+    margin-top: 13%;
 
 }
 .dev-title{
-    font-size: 55px;
-    font-weight: 800;
+    /* font-size: 55px; */
+    /* font-weight: 800; */
+    /* font-family: 'Quintessential', cursive; */
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 1;
+    line-height: 1;
+    font-size: 58px;
+    text-align: center;
+    
+
 }
 
 .about{
     font-size: 20px;
-    line-height: 26px;
+    /* line-height: 26px; */
+    font-family: 'Chivo', sans-serif;
+    letter-spacing: 1;
+    line-height: 1.5;
 }
 #main{
     padding: 0.5rem;
@@ -82,7 +96,9 @@ header{
 }
 .btn{
     font-size: 16px;
-    color: #fff;
+    /* color: #fff; */
+    color: #47057e;
+    font-weight: bold;
     text-decoration: none;
     padding: 18px 26px;
     border-radius: 3px;
