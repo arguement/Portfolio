@@ -207,6 +207,7 @@ line-height: 1.125;
     a.navi{
         padding: 1%;
         margin-left: 6%;
+        font-size: 1.5em;
     }
     .about{
         font-size: 4vh;
