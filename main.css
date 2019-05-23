@@ -12,7 +12,7 @@ html,body{
     margin: 0px auto;
     display: flex;
     height: 8%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem;
     color: white;
 }
@@ -33,11 +33,12 @@ html,body{
 
 a.navi{
     text-decoration: none;
-    font-weight: 800;
-    color: #000;
-    font-size: 23px;
+    font-weight: bold;
+    /* color: #000; */
+    font-size: 2.5em;
     font-family: 'Cabin';
-    padding: 93px 32px 40px;
+    padding: 2em;
+    letter-spacing: 3px;
     color: #ffffff;
 }
 a.navi:hover{
@@ -67,7 +68,7 @@ header{
     line-height: 1;
     font-size: 58px;
     text-align: center;
-    
+
 
 }
 
@@ -105,7 +106,7 @@ header{
     border-radius: 3px;
     margin-right: 10px;
     display: inline-block;
-    background: #899100 ;/* #260245; */
+    background: #DDCC4B ;/* #260245; */
 }
 #images{
     height: 20%;
@@ -206,5 +207,8 @@ line-height: 1.125;
     a.navi{
         padding: 1%;
         margin-left: 6%;
+    }
+    about{
+        font-size: 4vh;
     }
 }
